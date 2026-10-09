@@ -20,7 +20,7 @@ LUMÉA is a responsive luxury beauty studio website focused on elegant presentat
 
 ## Live Website
 
-Live deployment coming soon.
+https://pobgare.github.io/lumea/
 
 ## Author
 
