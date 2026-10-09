@@ -1,0 +1,345 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="LUMÉA is a private beauty studio in Los Angeles offering makeup, hair styling, skin preparation and bridal appointments.">
+  <meta name="theme-color" content="#f5f1eb">
+  <title>LUMÉA — Private Beauty Studio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header" id="top">
+    <div class="header-left">
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobileMenu">
+        <span></span>
+        <span></span>
+        <span class="menu-label">Menu</span>
+      </button>
+      <nav class="desktop-nav" aria-label="Primary navigation">
+        <a href="#services">Services</a>
+        <a href="#bridal">Bridal</a>
+      </nav>
+    </div>
+
+    <a class="brand" href="#top" aria-label="LUMÉA home">LUMÉA</a>
+
+    <div class="header-right">
+      <nav class="desktop-nav" aria-label="Secondary navigation">
+        <a href="#studio">Studio</a>
+        <a href="#work">Work</a>
+      </nav>
+      <a class="header-book" href="#booking"><span>Book appointment</span></a>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+    <div class="mobile-menu-inner">
+      <nav aria-label="Mobile navigation">
+        <a href="#services"><span>01</span>Services</a>
+        <a href="#bridal"><span>02</span>Bridal</a>
+        <a href="#studio"><span>03</span>Studio</a>
+        <a href="#work"><span>04</span>Work</a>
+        <a href="#booking"><span>05</span>Book appointment</a>
+      </nav>
+      <div class="mobile-menu-foot">
+        <span>Private beauty studio</span>
+        <span>Los Angeles, USA</span>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <section class="hero" aria-labelledby="heroTitle">
+      <div class="hero-image" aria-hidden="true">
+        <img src="https://images.unsplash.com/photo-1659422980942-e17d377656d9?auto=format&fit=crop&fm=jpg&q=88&w=2400" alt="">
+      </div>
+      <div class="hero-shade" aria-hidden="true"></div>
+      <div class="hero-grain" aria-hidden="true"></div>
+
+      <div class="hero-content">
+        <div class="hero-kicker-row">
+          <p class="hero-overline">Private beauty studio · Los Angeles</p>
+          <span class="hero-index">EST. 2026</span>
+        </div>
+        <h1 id="heroTitle">Still you.<br><em>Just unforgettable.</em></h1>
+        <p class="hero-description">Makeup, hair, skin preparation and bridal beauty shaped around your features—not a formula.</p>
+        <div class="hero-actions">
+          <a class="button button-light" href="#booking"><span>Book an appointment</span></a>
+          <a class="hero-link" href="#services"><span>Explore the studio</span></a>
+        </div>
+      </div>
+
+      <aside class="hero-aside" aria-label="Studio details">
+        <span>LUMÉA / PRIVATE STUDIO</span>
+        <div>
+          <p>Makeup · Hair · Bridal</p>
+          <p>Los Angeles · By appointment</p>
+        </div>
+      </aside>
+
+      <div class="hero-footer" aria-label="Studio highlights">
+        <div>
+          <span>01</span>
+          <p>One client at a time</p>
+        </div>
+        <div>
+          <span>02</span>
+          <p>Designed around your features</p>
+        </div>
+        <div>
+          <span>03</span>
+          <p>Bridal trials by appointment</p>
+        </div>
+        <a class="hero-scroll" href="#services" aria-label="Scroll to services">
+          <small>Discover</small>
+          <i aria-hidden="true"></i>
+        </a>
+      </div>
+    </section>
+
+    <section class="services section-pad" id="services">
+      <header class="section-head reveal">
+        <div>
+          <p class="eyebrow">01 / Services</p>
+          <h2>The studio menu</h2>
+        </div>
+        <p>Considered services, transparent starting prices and enough time to make every detail feel intentional.</p>
+      </header>
+
+      <div class="service-layout">
+        <figure class="service-image reveal">
+          <div class="image-frame">
+            <img src="https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?auto=format&fit=crop&w=1500&q=90" alt="Professional makeup application">
+          </div>
+          <figcaption><span>Makeup / Event finish</span><span>LUMÉA 01</span></figcaption>
+        </figure>
+
+        <div class="service-list reveal">
+          <article class="service-item">
+            <div class="service-title">
+              <span>01</span>
+              <h3>Signature Makeup</h3>
+            </div>
+            <p>Skin-focused makeup for events, dinners, shoots and occasions. Soft, polished or defined—always balanced to you.</p>
+            <div class="service-meta">
+              <span>90 min</span>
+              <strong>From Rs. 8,500</strong>
+            </div>
+          </article>
+
+          <article class="service-item">
+            <div class="service-title">
+              <span>02</span>
+              <h3>Hair Styling</h3>
+            </div>
+            <p>Blowouts, waves, sleek styling and occasion hair designed to complete the look without competing with it.</p>
+            <div class="service-meta">
+              <span>45–75 min</span>
+              <strong>From Rs. 3,500</strong>
+            </div>
+          </article>
+
+          <article class="service-item">
+            <div class="service-title">
+              <span>03</span>
+              <h3>Skin Preparation</h3>
+            </div>
+            <p>Hydration, prep and finishing steps for a smoother base before makeup or a fresh standalone glow.</p>
+            <div class="service-meta">
+              <span>45 min</span>
+              <strong>From Rs. 4,000</strong>
+            </div>
+          </article>
+
+          <article class="service-item">
+            <div class="service-title">
+              <span>04</span>
+              <h3>Bridal</h3>
+            </div>
+            <p>Consultation, trial and wedding-day beauty planned together so nothing important is decided under pressure.</p>
+            <div class="service-meta">
+              <span>By consultation</span>
+              <a class="inline-link" href="#bridal">View bridal</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="bridal" id="bridal">
+      <div class="bridal-image reveal">
+        <img src="https://images.unsplash.com/photo-1522337660859-02fbefca4702?auto=format&fit=crop&w=1800&q=90" alt="Bridal beauty preparation">
+        <span class="image-label">Private bridal appointments</span>
+      </div>
+      <div class="bridal-copy reveal">
+        <p class="eyebrow">02 / Bridal at LUMÉA</p>
+        <h2>Your wedding look should be decided <em>before</em> the wedding morning.</h2>
+        <p class="bridal-lead">The bridal process removes guesswork. We plan the finish, test what matters and lock the details in advance—so the final appointment feels calm, not experimental.</p>
+
+        <div class="bridal-steps">
+          <div>
+            <span>01</span>
+            <h3>Consultation</h3>
+            <p>Skin, references, outfit, timing and the overall direction.</p>
+          </div>
+          <div>
+            <span>02</span>
+            <h3>Trial</h3>
+            <p>We test the full look and refine anything that needs changing.</p>
+          </div>
+          <div>
+            <span>03</span>
+            <h3>Wedding day</h3>
+            <p>A calm, pre-planned appointment with enough time built in.</p>
+          </div>
+        </div>
+
+        <a class="button button-ivory" href="#booking"><span>Request a bridal consultation</span></a>
+      </div>
+    </section>
+
+    <section class="studio section-pad" id="studio">
+      <header class="section-head studio-head reveal">
+        <div>
+          <p class="eyebrow">03 / The studio</p>
+          <h2>Built for focus.</h2>
+        </div>
+        <p>No crowded floor. No rushed handover. No switching between clients mid-appointment. The room is yours while you’re in it.</p>
+      </header>
+
+      <div class="studio-gallery">
+        <figure class="studio-main reveal image-frame">
+          <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=1800&q=90" alt="Refined salon studio interior">
+          <figcaption>Quiet space / considered detail</figcaption>
+        </figure>
+        <div class="studio-side">
+          <figure class="reveal image-frame">
+            <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=1200&q=90" alt="Beauty artist working in studio">
+          </figure>
+          <div class="studio-detail reveal">
+            <span class="studio-number">L / 03</span>
+            <p>Good light. Clean tools. Considered products. Enough time.</p>
+            <dl>
+              <div><dt>Appointments</dt><dd>Private</dd></div>
+              <div><dt>Booking</dt><dd>Advance</dd></div>
+              <div><dt>Location</dt><dd>Los Angeles</dd></div>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="work section-pad" id="work">
+      <header class="work-head reveal">
+        <div>
+          <p class="eyebrow">04 / Selected work</p>
+          <h2>Faces, finishes,<br><em>details.</em></h2>
+        </div>
+        <p class="work-note">A restrained finish up close.<br>Nothing to hide behind.</p>
+      </header>
+
+      <div class="work-grid">
+        <figure class="work-card work-card-a reveal">
+          <div class="work-media"><img src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?auto=format&fit=crop&w=1400&q=90" alt="Soft makeup finish"></div>
+          <figcaption><span>Soft definition</span><small>Event makeup / 01</small></figcaption>
+        </figure>
+
+        <figure class="work-card work-card-b reveal">
+          <div class="work-media"><img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=1200&q=90" alt="Skin preparation products"></div>
+          <figcaption><span>Prepared skin</span><small>Skin / prep / 02</small></figcaption>
+        </figure>
+
+        <figure class="work-card work-card-c reveal">
+          <div class="work-media"><img src="https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?auto=format&fit=crop&w=1400&q=90" alt="Professional makeup detail"></div>
+          <figcaption><span>Camera-ready finish</span><small>Makeup / detail / 03</small></figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="quote-section" aria-label="Client approach">
+      <div class="quote-rule reveal"><span></span><small>The LUMÉA approach</small><span></span></div>
+      <blockquote class="reveal">“You should notice the person first, <em>not the makeup.</em>”</blockquote>
+      <p class="quote-signoff reveal">Polished / personal / never overdone</p>
+    </section>
+
+    <section class="booking section-pad" id="booking">
+      <div class="booking-intro reveal">
+        <p class="eyebrow">05 / Appointments</p>
+        <h2>Tell us what you’re getting ready for.</h2>
+        <p>Share the basics and we’ll have everything needed to start the conversation.</p>
+
+        <div class="booking-details">
+          <div><span>Location</span><strong>Los Angeles, USA</strong></div>
+          <div><span>Hours</span><strong>By appointment</strong></div>
+          <div><span>Bridal</span><strong>Advance consultation required</strong></div>
+        </div>
+      </div>
+
+      <form class="booking-form reveal" id="bookingForm">
+        <div class="form-topline">
+          <span>Appointment request</span>
+          <span>01 — 05</span>
+        </div>
+
+        <div class="form-row">
+          <label>
+            <span>Name</span>
+            <input type="text" name="name" autocomplete="name" placeholder="Your full name" required>
+          </label>
+          <label>
+            <span>Phone / WhatsApp</span>
+            <input type="tel" name="phone" autocomplete="tel" placeholder="03xx xxx xxxx" required>
+          </label>
+        </div>
+
+        <div class="form-row">
+          <label>
+            <span>Service</span>
+            <select name="service" required>
+              <option value="" selected disabled>Choose a service</option>
+              <option>Signature Makeup</option>
+              <option>Hair Styling</option>
+              <option>Skin Preparation</option>
+              <option>Bridal Consultation</option>
+            </select>
+          </label>
+          <label>
+            <span>Preferred date</span>
+            <input type="date" name="date" required>
+          </label>
+        </div>
+
+        <label>
+          <span>Anything we should know?</span>
+          <textarea name="notes" rows="4" placeholder="Event, timing, preferred finish, outfit details..."></textarea>
+        </label>
+
+        <div class="form-submit">
+          <button class="button button-dark" type="submit"><span>Send appointment request</span></button>
+          <p id="formNote" aria-live="polite">Demo form — connect to WhatsApp, email or your booking platform for production.</p>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-main">
+      <a class="footer-brand" href="#top">LUMÉA</a>
+      <p>Private beauty studio · Los Angeles, USA</p>
+      <a class="footer-book inline-link" href="#booking">Book appointment</a>
+    </div>
+    <div class="footer-bottom">
+      <span>Makeup · Hair · Skin · Bridal</span>
+      <span>© 2026 LUMÉA</span>
+      <a href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
