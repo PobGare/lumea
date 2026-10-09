@@ -1080,3 +1080,12 @@ button { color: inherit; }
   .reveal { opacity: 1; transform: none; }
   .hero-image img { transform: none; }
 }
+@media (max-width: 560px) {
+  .hero {
+    min-height: auto !important;
+  }
+
+  .hero-content {
+    padding-bottom: 48px;
+  }
+}
